@@ -101,7 +101,7 @@ class Monitor:
         ))
         self.set_remote_alerting(Monitor.get_config_option(
             config_options,
-            'remote_alerts',
+            'remote_alert',
             required_type='bool',
             default=False
         ))
