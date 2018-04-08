@@ -113,7 +113,8 @@ class Monitor:
             config_options,
             'gap',
             required_type='int',
-            minimum=0
+            minimum=0,
+            default=0
         ))
         self.running_on = self.short_hostname()
         self.name = name
